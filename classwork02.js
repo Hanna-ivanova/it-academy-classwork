@@ -2,12 +2,13 @@ const unreadMessagesCount = 56;
 const isUserregistered = true;
 const userFavouriteGenres = 'science fiction';
 
-const user = "Admin";
-const adminRole = "Anonymus";
+const currentUser = "Admin";
+const anonymusRole = "Anonymus";
+const adminRole = "Admin";
 
-if (user == adminRole) {
+if (currentUser === adminRole) {
     console.log("Привет, Admin")
 } else {console.log("Привет, Anonymus")
 }
 
-let isAdmin = (user == adminRole) ? console.log("Привет, Admin"): console.log("Привет, Anonymus"); 
+let isAdmin = (currentUser == adminRole) ? console.log("Привет, Admin"): console.log("Привет, Anonymus"); 
