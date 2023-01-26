@@ -11,7 +11,7 @@ if (currentUser === adminRole) {
 } else {console.log("Привет, Anonymus")
 }
 
-let isAdmin = (currentUser == adminRole) ? console.log("Привет, Admin"): console.log("Привет, Anonymus");
+let isAdmin = (currentUser == adminRole) ? console.log("Привет, Admin"): console.log("Привет, Anonymus"); 
 function sum (a, b) {
     alert (a+b);
 }
